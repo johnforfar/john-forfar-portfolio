@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import coderPic from "../public/portfolio1.jpg";
+import coderPic2 from "../public/coding.jpg";
+import heyToly from "../public/heytoly.jpg";
 import Link from "next/link";
 export default function Qualifcations() {
   return (
@@ -35,7 +37,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} />
+              <Image src={coderPic2} className="rounded-t-lg" width={640} height={427} />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
                 <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, SendGrid, Tailwind, Twilio & MongoDB.</p>
@@ -49,11 +51,11 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} />
+              <Image src={heyToly} className="rounded-t-lg" width={640} height={427} />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">HeyToly.com</h3>
                 <p className="text-purple-500 mb-2">Solana ecosystem discovery AI chat bot using Scrapers, ChatGPT Davinci API, React & Next.</p>
-                <a href="https://heytoly.com" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+                <a href="https://heytoly.com" target="_blank" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
               </div>
             </div>
           </div>
