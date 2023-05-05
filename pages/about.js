@@ -11,16 +11,16 @@ export default function Home() {
         <title>About John Forfar| Full Stack Developer Melbourne</title>
       </Head>
 
-      <div class="p-20 bg-orange-200">
-        <h3 class="text-orange-400 font-bold mb-6">About Me</h3>
+      <div className="p-20 bg-orange-200">
+        <h3 className="text-orange-400 font-bold mb-6">About Me</h3>
         <Link href="/">
           <a className="backarrow">&larr;</a>
         </Link>
-        <div class="bg-white rounded-lg shadow-2xl md:flex">
-          <img src="./../self.jpg" alt="John Forfar" class="md:w-1/4 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
-          <div class="p-6">
-            <h2 class="font-bold text-xl md:text-3xl mb-2 text-orange-700">John Forfar</h2>
-            <p class="text-xl text-orange-700">
+        <div className="bg-white rounded-lg shadow-2xl md:flex">
+          <Image src="./../self.jpg" alt="John Forfar" className="md:w-1/4 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+          <div className="p-6">
+            <h2 className="font-bold text-xl md:text-3xl mb-2 text-orange-700">John Forfar</h2>
+            <p className="text-xl text-orange-700">
               Skilled Full-Stack Developer with 10+ years of expertise in JavaScript, React, Next, Python and SQL. 
               Passionate about learning new technologies such as Web3 & ChatGPT API. Experienced with WordPress/PHP, 
               Python for Network Automation/Django. Studying Applied Data Science Cert and holds a MBA and 

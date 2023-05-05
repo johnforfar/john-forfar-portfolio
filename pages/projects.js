@@ -16,47 +16,47 @@ export default function Qualifcations() {
         <div className="text-5xl font-bold">📽 Personal Projects</div>
 
         {/* <!-- Container --> */}
-        <div class="max-w-screen-xl mx-auto px-4 flex">
+        <div className="max-w-screen-xl mx-auto px-4 flex">
 
   
           {/* <!-- Grid column --> */}
-          <div class="w-full p-4 sm:w-1/2 lg:w-1/3">
+          <div className="w-full p-4 sm:w-1/2 lg:w-1/3">
             {/* <!-- Column contents --> */}
-            <div class="bg-white rounded-lg shadow-lg">
+            <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" class="rounded-t-lg" />
-              <div class="p-2">
-                <h3 class="font-bold mb-2 text-2xl text-purple-700">Defi.Compare</h3>
-                <p class="text-purple-500 mb-2">Blockchain fee comparison dashboard using Python, TypeScript, React, Hasura & Timescale.</p>
-                <a href="https://defi.compare" class="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+              <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" className="rounded-t-lg" />
+              <div className="p-2">
+                <h3 className="font-bold mb-2 text-2xl text-purple-700">Defi.Compare</h3>
+                <p className="text-purple-500 mb-2">Blockchain fee comparison dashboard using Python, TypeScript, React, Hasura & Timescale.</p>
+                <a href="https://defi.compare" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
               </div>
             </div>
           </div>
 
           {/* <!-- Grid column --> */}
-          <div class="w-full p-4 sm:w-1/2 lg:w-1/3">
+          <div className="w-full p-4 sm:w-1/2 lg:w-1/3">
             {/* <!-- Column contents --> */}
-            <div class="bg-white rounded-lg shadow-lg">
+            <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" class="rounded-t-lg" />
-              <div class="p-2">
-                <h3 class="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
-                <p class="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, SendGrid, Tailwind, Twilio & MongoDB.</p>
-                <a href="https://johnforfar.com" class="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+              <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" className="rounded-t-lg" />
+              <div className="p-2">
+                <h3 className="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
+                <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, SendGrid, Tailwind, Twilio & MongoDB.</p>
+                <a href="https://johnforfar.com" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
               </div>
             </div>
           </div>
 
           {/* <!-- Grid column --> */}
-          <div class="w-full p-4 sm:w-1/2 lg:w-1/3">
+          <div className="w-full p-4 sm:w-1/2 lg:w-1/3">
             {/* <!-- Column contents --> */}
-            <div class="bg-white rounded-lg shadow-lg">
+            <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" class="rounded-t-lg" />
-              <div class="p-2">
-                <h3 class="font-bold mb-2 text-2xl text-purple-700">HeyToly.com</h3>
-                <p class="text-purple-500 mb-2">Solana ecosystem discovery AI chat bot using Scrapers, ChatGPT Davinci API, React & Next.</p>
-                <a href="https://heytoly.com" class="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+              <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" className="rounded-t-lg" />
+              <div className="p-2">
+                <h3 className="font-bold mb-2 text-2xl text-purple-700">HeyToly.com</h3>
+                <p className="text-purple-500 mb-2">Solana ecosystem discovery AI chat bot using Scrapers, ChatGPT Davinci API, React & Next.</p>
+                <a href="https://heytoly.com" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
               </div>
             </div>
           </div>
