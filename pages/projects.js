@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import portfolio1 from "/portfolio1.jpg";
+import coderPic from "../public/portfolio1.jpg";
 import Link from "next/link";
 export default function Qualifcations() {
   return (
@@ -10,8 +10,8 @@ export default function Qualifcations() {
           John Forfar&apos;s Projects | Full Stack Developer Melbourne
         </title>
       </Head>
-      <div className="">
-        <div className="text-5xl font-bold">📽 Personal Projects</div>
+      <div className="mt-20">
+        <div className="text-5xl font-bold mb-10">📽 Personal Projects</div>
 
         {/* <!-- Container --> */}
         <div className="max-w-screen-xl mx-auto px-4 flex">
@@ -21,7 +21,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={portfolio1} className="rounded-t-lg" width={20} height={20} />
+              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">Defi.Compare</h3>
                 <p className="text-purple-500 mb-2">Blockchain fee comparison dashboard using Python, TypeScript, React, Hasura & Timescale.</p>
@@ -35,7 +35,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={portfolio1} alt="" className="rounded-t-lg" width={20} height={20} />
+              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
                 <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, SendGrid, Tailwind, Twilio & MongoDB.</p>
@@ -49,7 +49,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src="{portfolio1}" alt="" className="rounded-t-lg" width={20} height={20} />
+              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">HeyToly.com</h3>
                 <p className="text-purple-500 mb-2">Solana ecosystem discovery AI chat bot using Scrapers, ChatGPT Davinci API, React & Next.</p>
