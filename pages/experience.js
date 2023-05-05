@@ -78,7 +78,7 @@ export default function Experience() {
                 S<span className="tooltip">Solution</span>
               </div>
               <div className="textbox">
-                Deployed NodeJS API server to integrate with external SDK's & API's, optimised performance and customised functions.
+                Deployed NodeJS API server to integrate with external SDK&apos;s & API&apos;s, optimised performance and customised functions.
               </div>
               <div className="technology">
                 T<span className="tooltip">Technology</span>
