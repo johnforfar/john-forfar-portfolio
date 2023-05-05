@@ -24,7 +24,7 @@ export default function Experience() {
           <div className="typewrite mt-5 has-tooltip cursor-pointer">
             Gamerplex
             <span className="tooltip">
-              Web3 gaming company on a mission to build fun experiences for players using interoperable NFT's and Currencies
+              Web3 gaming company on a mission to build fun experiences for players using interoperable NFT&apos;s and Currencies
             </span>
           </div>
           <div className="tenure">{weeks} weeks</div>

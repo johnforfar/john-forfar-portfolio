@@ -25,7 +25,7 @@ export default function Home() {
               Passionate about learning new technologies such as Web3 & ChatGPT API. Experienced with WordPress/PHP, 
               Python for Network Automation/Django. Studying Applied Data Science Cert and holds a MBA and 
               Meta Full Stack Certificate. Military veteran with authentic leadership and community service commitment. 
-              Ready to contribute to your team's success.
+              Ready to contribute to your team&apos;s success.
             </p>
           </div>
         </div>
