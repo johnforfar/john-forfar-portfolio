@@ -18,7 +18,6 @@ export default function Qualifcations() {
         {/* <!-- Container --> */}
         <div className="max-w-screen-xl mx-auto px-4 flex">
 
-  
           {/* <!-- Grid column --> */}
           <div className="w-full p-4 sm:w-1/2 lg:w-1/3">
             {/* <!-- Column contents --> */}

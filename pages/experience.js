@@ -56,7 +56,6 @@ export default function Experience() {
               <div className="textbox">
               Designed and deployed https://gamerplex.com using NextJS, showcasing front-end development and responsive design skills.
               </div>
-
               <div className="technology">
                 T<span className="tooltip">Technology</span>
               </div>
@@ -81,13 +80,35 @@ export default function Experience() {
               <div className="textbox">
                 Deployed NodeJS API server to integrate with external SDK's & API's, optimised performance and customised functions.
               </div>
-
               <div className="technology">
                 T<span className="tooltip">Technology</span>
               </div>
               <div className="textbox">NodeJS, Express and Typescript </div>
             </div>
           </div>
+
+          <div className="card">
+            <div className="bold">Python Scripting</div>
+            <div id="custom scripts" className="grid grid-cols-[10px_1fr] ">
+              <div className="problem">
+                P<span className="tooltip">Problem</span>
+              </div>
+              <div className="textbox">
+                  4500 network infrastructure devices need to be configured and updated with a standardised configuration.
+              </div>
+              <div className="solution">
+                S<span className="tooltip">Solution</span>
+              </div>
+              <div className="textbox">
+                Deployed Python script to pull config from end devices, compare device config against template and deploy changes.
+              </div>
+              <div className="technology">
+                T<span className="tooltip">Technology</span>
+              </div>
+              <div className="textbox">Python, Cisco network infrastructure</div>
+            </div>
+          </div>
+
         </div>
       </div>
       <Link href="/">

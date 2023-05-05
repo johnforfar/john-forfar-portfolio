@@ -4,11 +4,11 @@ import Image from "next/image";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import clientPromise from "../lib/mongodb";
-
+import profilePic from "../public/self.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 export default function Home(props) {
-  const [flavour, setFlavour] = React.useState("blank");  
+  const [flavour, setFlavour] = React.useState("blank");
 
   var connected = props.isConnected ? "🟢" : "🔴";
   console.log(connected);
@@ -32,9 +32,9 @@ export default function Home(props) {
             name="flavour"
             id="flavour"
           >
-            <option value="blank">Choose your flavour:</option>
-            <option value="coke">Avalanche</option>
-            <option value="pepsi">Ripple</option>
+            <option value="blank">Choose your community:</option>
+            <option value="coke">Dogecoin</option>
+            <option value="pepsi">Ethereum</option>
             <option value="fanta">Bitcoin</option>
             <option value="solana">Solana</option>
           </select>
@@ -57,8 +57,8 @@ export default function Home(props) {
           }}
         >
           <Image
-            className="duration-150 hover:-skew-y-3"
-            src="/self.jpg"
+            className="duration-150"
+            src={profilePic}
             width={200}
             height={300}
             alt="John Forfar"
