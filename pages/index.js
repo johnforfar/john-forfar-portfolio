@@ -112,7 +112,7 @@ export default function Home(props) {
         <Link href="/tools">
           <a className="btn-primary">Tools</a>
         </Link>
-        <Link href="/John-Forfar-Resume-Full-Stack-Developer-v1.2.pdf" rel="noopener noreferrer">
+        <Link href="/John-Forfar-Resume-Full-Stack-Developer-v1.3.pdf" rel="noopener noreferrer">
           <a className="btn-primary text-xs w-1/3  font-thin p-0 mt-5 col-span-2" target="_blank">
             Resume PDF
           </a>
