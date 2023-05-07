@@ -17,28 +17,18 @@ export default function tools() {
         <div className="p-1">
           <div className="typewrite">VS Code</div>
           <code>I use vscode 6~ to 10~ hours every day!</code>
-          <br></br>
           <sup>
             You can find my list of favourite extensions{" "}
             <Link href="/extensions"><a className="underline">here</a></Link>
           </sup>
           <div className="typewrite">Postman</div>
           <code>
-            It&apos;s getting heavy but it&apos;s a beast of a tool to GET (get it?) and
-            consume all my APIs.
-          </code>
-          <div className="typewrite">Warp CLI</div>
-          <code>
-            Found it in March 2022, it&apos;s a great little addition to using the
-            Mac built-in CLI
+            I can&apos;t POST enough about testing API&apos;s. You GET what I&apos;m PUT&apos;ing down?
           </code>
           <div className="typewrite">FIGMA</div>
           <code>
-            Sometimes I just want to design a logo, wireframe or even designed a
-            kitchen once.
+            Great tool for quickly designing UX/UI before jumping into code.
           </code>
-          <div className="typewrite">Chrome Dev Tools</div>
-          <code>How good is it!? I could speak for hours about it - but I won&apos;t</code>
         </div>
       </div>
       <Link href="/">

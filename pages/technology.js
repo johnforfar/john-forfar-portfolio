@@ -16,16 +16,16 @@ export default function Qualifcations() {
         <div className="text-5xl font-bold">🕹 Technology</div>
 
         <div className="p-1">
-          <div className="typewrite">Azure</div>
-          <code>D, Enterprise Applications, SSO, Auto-provisioning, Functions, Blobs</code>
           <div className="typewrite">AWS</div>
-          <code>Lambda Functions, API Gateway, Amazon Connect, Incognito, EC2, S3 Buckets</code>
+          <code>CodePipeline, CodeCommit, CodeDeploy, CodeBuild, EC2, S3 Buckets & Elastic Beanstalk.</code>
           <div className="typewrite">GCP</div>
           <code>Cloud Functions </code>
-          <div className="typewrite">Twilio</div>
-          <code>SMS, Verify, Auth Codes, Serverless Functions</code>
           <div className="typewrite">MongoDB</div>
           <code>Atlas, Realm, Clusters</code>
+          <div className="typewrite">Node.js</div>
+          <code>Express, API</code>
+          <div className="typewrite">React.js</div>
+          <code>Next, React-native coming soon</code>
           <div className="typewrite">Web3.js</div>
           <code>Integrate with Solana Blockchain accounts</code>
         </div>

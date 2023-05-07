@@ -40,7 +40,7 @@ export default function Qualifcations() {
               <Image src={coderPic2} className="rounded-t-lg" width={640} height={427} />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
-                <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, SendGrid, Tailwind, Twilio & MongoDB.</p>
+                <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, Tailwind CSS & MongoDB.</p>
                 <a href="https://johnforfar.com" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
               </div>
             </div>
