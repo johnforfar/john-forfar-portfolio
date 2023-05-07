@@ -27,7 +27,7 @@ export default function Qualifcations() {
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">Defi.Compare</h3>
                 <p className="text-purple-500 mb-2">Blockchain fee comparison dashboard using Python, TypeScript, React, Hasura & Timescale.</p>
-                <a href="https://defi.compare" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+                <a href="https://defi.compare" className="text-purple-600 hover:text-purple-500 underline text-sm" rel="noopener noreferrer">Read More 👉</a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Qualifcations() {
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
                 <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, Tailwind CSS & MongoDB.</p>
-                <a href="https://johnforfar.com" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+                <a href="https://johnforfar.com" className="text-purple-600 hover:text-purple-500 underline text-sm" rel="noopener noreferrer">Read More 👉</a>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Qualifcations() {
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">HeyToly.com</h3>
                 <p className="text-purple-500 mb-2">Solana ecosystem discovery AI chat bot using Scrapers, ChatGPT Davinci API, React & Next.</p>
-                <a href="https://heytoly.com" target="_blank" className="text-purple-600 hover:text-purple-500 underline text-sm">Read More 👉</a>
+                <a href="https://heytoly.com" target="_blank" className="text-purple-600 hover:text-purple-500 underline text-sm" rel="noopener noreferrer">Read More 👉</a>
               </div>
             </div>
           </div>
