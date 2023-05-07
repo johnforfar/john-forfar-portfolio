@@ -116,7 +116,7 @@ export default function Home(props) {
           <a className="btn-disabled">Games</a>
         </Link>
         <Link href="http://aws-node-api-service-env.eba-zrwamzkc.ap-southeast-2.elasticbeanstalk.com/">
-          <a className="btn-primary">AWS API</a>
+          <a className="btn-primary" target="_blank">AWS API</a>
         </Link>
         <Link href="/John-Forfar-Resume-Full-Stack-Developer-v1.3.pdf" rel="noopener noreferrer">
           <a className="btn-primary text-xs w-1/3  font-thin p-0 mt-5 col-span-2" target="_blank">
