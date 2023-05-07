@@ -6,7 +6,7 @@ export default function Footer(props) {
         &copy; {new Date().getFullYear()} {" | "}
         <a
           className="hover:underline"
-          href="https://github.com/john-forfar/john-forfar-portfolio"
+          href="https://github.com/johnforfar/john-forfar-portfolio"
           target="_blank"
           rel="noreferrer"
         >
