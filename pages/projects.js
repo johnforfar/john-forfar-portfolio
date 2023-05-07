@@ -23,7 +23,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} />
+              <Image src={coderPic} className="rounded-t-lg" width={640} height={427} alt="Defi.Compare" />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">Defi.Compare</h3>
                 <p className="text-purple-500 mb-2">Blockchain fee comparison dashboard using Python, TypeScript, React, Hasura & Timescale.</p>
@@ -37,7 +37,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={coderPic2} className="rounded-t-lg" width={640} height={427} />
+              <Image src={coderPic2} className="rounded-t-lg" width={640} height={427} alt="JohnForfar.com" />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">JohnForfar.com</h3>
                 <p className="text-purple-500 mb-2">Porfolio website using JavaScript, React, Next, Tailwind CSS & MongoDB.</p>
@@ -51,7 +51,7 @@ export default function Qualifcations() {
             {/* <!-- Column contents --> */}
             <div className="bg-white rounded-lg shadow-lg">
               {/* <!-- Card contents --> */}
-              <Image src={heyToly} className="rounded-t-lg" width={640} height={427} />
+              <Image src={heyToly} className="rounded-t-lg" width={640} height={427} alt="HeyToly.com" />
               <div className="p-2">
                 <h3 className="font-bold mb-2 text-2xl text-purple-700">HeyToly.com</h3>
                 <p className="text-purple-500 mb-2">Solana ecosystem discovery AI chat bot using Scrapers, ChatGPT Davinci API, React & Next.</p>
